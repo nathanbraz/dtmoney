@@ -90,4 +90,14 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
+  .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+  }
+
+  .ReactModal__Overlay--after-open{
+      opacity: 1;
+      transition: opacity 200ms ease-in-out;
+  }
+
 `
